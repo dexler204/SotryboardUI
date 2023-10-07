@@ -22,6 +22,11 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Main VC"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4IO-Rt-5Ej">
+                                <rect key="frame" x="40" y="811" width="334" height="31"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Bottom Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSP-WD-X2W">
                                 <rect key="frame" x="40" y="64" width="334" height="31"/>
@@ -38,6 +43,9 @@
                             <constraint firstItem="nSP-WD-X2W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Dqx-fV-jbt"/>
                             <constraint firstItem="nSP-WD-X2W" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="nGF-fb-bhw"/>
                             <constraint firstItem="ZoM-Oe-iOq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zGt-ji-Su6"/>
+                            <constraint firstItem="4IO-Rt-5Ej" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="OAI-p9-NL7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4IO-Rt-5Ej" secondAttribute="trailing" constant="40" id="n0d-Pz-N0B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4IO-Rt-5Ej" secondAttribute="bottom" constant="20" id="wQ5-XI-3Jx"/>
                         </constraints>
                     </view>
                 </viewController>
